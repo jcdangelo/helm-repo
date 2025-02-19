@@ -3,7 +3,7 @@ entries:
   cloudacademy-webapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-19T17:10:18.802935-05:00"
+    created: "2025-02-19T17:52:10.551352-05:00"
     description: A Helm chart for Kubernetes
     digest: 42ee102eaa6bf59182904b81753af017ea14e2b9ff7558528eb99243332396fb
     name: cloudacademy-webapp
@@ -13,8 +13,19 @@ entries:
     version: 0.1.0
   flux-tick-migration-tag:
   - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-19T17:52:10.559583-05:00"
+    description: A helm chart for Jeff to tell which configuration is active in a
+      given namespace for tick for migrating from flux v1 to v2.
+    digest: 2956480fa4008e0009e69bc4e0083f09fc68c41ca3ab70255015699ee86d356d
+    name: flux-tick-migration-tag
+    type: application
+    urls:
+    - flux-tick-migration-tag-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-19T17:10:18.808801-05:00"
+    created: "2025-02-19T17:52:10.555319-05:00"
     description: A helm chart for Jeff to tell which configuration is active in a
       given namespace for tick for migrating from flux v1 to v2.
     digest: 97ef0f677147e82e0a6c3dbf51a2df2c62465ce7990117d83b2ab86e14962168
@@ -23,4 +34,4 @@ entries:
     urls:
     - flux-tick-migration-tag-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-19T17:10:18.796766-05:00"
+generated: "2025-02-19T17:52:10.544334-05:00"

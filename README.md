@@ -17,7 +17,7 @@ Served to helm via [index.yaml](index.yaml).
 * `git branch -v ; git status ; git pull` ... clean up; use branch gh-pages
 * `cp ~/working-dir/project-foo-0.1.0.tgz ~/this-helm-repo-checkout`
 * `git add project-foo-0.1.0.tgz ; git commit project-foo-0.1.0.tgz -m 'a note here'`
-* `helm index . ; git commit index.yaml -m 'a note here'``
+* `helm repo index . ; git commit index.yaml -m 'a note here'``
 * `vi README.md ; git commit README.md -m 'a note here'` (optional)
 * `git push`
 * `ktx your-target-kubernetes-context`
